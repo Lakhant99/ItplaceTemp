@@ -22,6 +22,9 @@
 		.feature-style-three .item-list .item .inner-box {
 		    height: 208px;
 		}
+		.single-service-item {
+		    height: 335px;
+		}
 		img.logo-white-mindprov_footer {
 		    margin-bottom: -53px;
 		    position: relative;
@@ -32,6 +35,25 @@
 		.footer .footer-text p {
 		    margin-top: unset;
 		}
+		#myVideo {
+		  min-width: 100%; 
+		  min-height: 100%;
+		}
+		.how-box-one {
+    		height: 370px;
+		}
+		.how-it-work {
+		    padding: 0px 0px 100px 0px;
+		}
+    	.about {
+		    padding: 100px 0px 40px;
+		}
+
+		.location ul li:first-child {
+		        font-size: 17px !important;
+    			font-weight: bold;
+		}
+		
 	</style>
 
 </head>
@@ -60,85 +82,23 @@
 				            <div class="navbar-collapse collapse clearfix">
 				                <ul class="navigation clearfix">
 
-				                    <li class="current"><a href="index.html">home</a></li>                 
-				                    
-				                    <li class="dropdown "><a href="about.html">about</a>
-										<ul>
-											<li><a href="about.html">about</a></li>
-											<li><a href="team.html">Team</a></li>
-											<li><a href="error.html">Error</a></li>
-										</ul>
-				                    </li>
-
-				                    <li class="dropdown"><a href="#">service</a>
-				                        <ul>
-											<li><a href="service.html">Services</a></li>
-											<li><a href="service-single.html">Service Single</a></li>
-										</ul>
-				                    </li>
-
-				                    
-
-				                    <li class="dropdown"><a href="#">Blog</a>
-										<ul>
-											
-											<li><a href="blog-grid.html">Blog Grid</a></li>
-											<li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-											<li><a href="blog-details.html">Blog Details</a></li>
-											
-										 </ul>
-									</li>
-
-				                    <li><a href="contact.html">Contact</a></li>
-				                </ul>
-
-				                <ul class="mobile-menu clearfix">
-
-				                    <li><a href="index.html">home</a></li>                 
-				                    
-				                    <li class="current"><a href="about.html">about</a></li>
-
-				                    <li class="dropdown"><a href="#">service</a>
-				                        <ul>
-											<li><a href="service.html">Services</a></li>
-											<li><a href="service-single.html">Service Single</a></li>
-										</ul>
-				                    </li>
-
-				                    <li class="dropdown"><a href="#">pages</a>
-										<ul>
-											<li><a href="shop.html">shop</a></li>
-											<li><a href="team.html">Team</a></li>
-											<li><a href="error.html">Error</a></li>
-										 </ul>
-				                    </li>
-
-				                    <li class="dropdown"><a href="#">Blog</a>
-										<ul>
-											
-											<li><a href="blog-grid.html">Blog Grid</a></li>
-											<li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-											<li><a href="blog-details.html">Blog Details</a></li>
-											
-										 </ul>
-									</li>
-
+				                    <li class="current"><a href="index.html">home</a></li>
+				                    <li><a href="index.html?#aboutPage">about</a></li>                 
+				                    <li><a href="index.html?#servicePage">Services</a></li>
 				                    <li><a href="contact.html">Contact</a></li>
 
 				                </ul>
 				            </div>
 				        </nav>
-
 					</div>
 					<div class="col-md-2">
 						<div class="right-area">
 						   <div class="link_btn float_right">
-							   <a href="contact.html" class="thm-btn">Contact Us</a>
+							   <a href="#" class="thm-btn">GET A Quote?</a>
 						   </div>
 						</div>	
 					</div>
-		    	</div>
-		        
+		    	</div>		        
 		    </div>
 		</div>
 
@@ -270,10 +230,9 @@
 							<h3>Links</h3>
 							<ul class="">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="service.html">Services</a></li>
-								<li><a href="shop.html">Our Shop</a></li>
-								<li><a href="blog-grid.html">Latest Blog</a></li>
+								<li><a href="#aboutPage">About Us</a></li>
+								<li><a href="#servicePage">Services</a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -281,7 +240,7 @@
 						<div class="location">
 							<h3>Location</h3>
 							<ul>
-								<li>MindProve Technologies Pvt Ltd City, Indore</li>
+								<li class="">MindProve Technologies Pvt Ltd</li>
 								<li><i class="fa fa-home"></i> 401 Metro Pride Building 6 Mohan Nagar Janki Nagar Gate Navlakha  Square Indore - 452001 (India)</li>
 								<li><i class="fa fa-phone"></i> <a href="#">+91 8248657899</a></li>
 							</ul>
@@ -312,7 +271,6 @@
 				</div>
 			</div>
 		</footer>
- 
 
 
 <!-- Scroll Top Button -->
